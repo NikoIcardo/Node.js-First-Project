@@ -3,5 +3,6 @@
 
 The project is more intended to be a beginner's playground for myself. 
 
-Things used here: 
+Items used here: 
 - FileSystem: 'fs'
+- http
