@@ -5,4 +5,4 @@ The project is more intended to be a beginner's playground for myself.
 
 Items used here: 
 - FileSystem: 'fs'
-- http
+- HTTP interface
