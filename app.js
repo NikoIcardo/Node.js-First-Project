@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const app = express(); // returns an express object
 
 app.use(bodyParser.urlencoded({ extended: false }));
-/* this will parse any incoming requests and extract any data in the body that is of the type urlencoded, it will also call next() for us
+/* this will parse any incoming requests and extract any data straight into variables in the body that is of the type urlencoded, it will also call next() for us
 Notice the difference between the plainNodeServer.js methodology and this methodology. Express allowed us to completely bypass all of the extraction code and did it for us. */
 
 app.post("/user", (req, res, next) => {
